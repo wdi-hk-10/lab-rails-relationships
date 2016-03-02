@@ -4,13 +4,6 @@
 
 > ***Note:*** _This can be a pair programming activity or done independently._  Instructors may want to do a short introduction to strong params, the rails console, and migrations in Rails.
 
-This will technically be the first time you use relationships in Rails, but between having practiced connecting models already using ActiveRecord & having done relationships in Sinatra at the beginning of the week, this will hopefully be easy.  The only difference between Sinatra and Rails when you build and modify models will be the file/folder structure; all the content in the models to create the relations will be exactly the same.  The commands to create the migrations are just about the same too:
-
-```bash
-rails g migration MigrationName
-rake db:migrate
-```
-
 For this lab, we are going to build a Cookbook app with several models that interact one another.
 
 ## Exercise
