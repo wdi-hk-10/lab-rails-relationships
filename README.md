@@ -17,7 +17,6 @@ For this lab, we are going to build a Cookbook app with several models that inte
 	- Servings (integer)
 - Create a model `Course` with one attribute: `name` as a string
 - Link `Recipe` and `Course` so that a course has many recipes and a recipe belongs to a course
-- Be sure to create the RESTful controller actions and the corresponding routes
 - Test if associations works in the Rails console (`rails c`)
 - then set up the appropriate views
 
