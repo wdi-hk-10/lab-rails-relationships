@@ -30,11 +30,11 @@ For this lab, we are going to build a Cookbook app with several models that inte
 
 You should be able to go to `rails c` and create new course, recipes (and ingredients for bonus) and be able to call these
 
-Course.first.recipes
-Recipe.first.course
-Recipe.first.ingredients (bonus)
-Ingredients.first.recipe (bonus)
-Ingredients.first.recipe.course (bonus)
+- Course.first.recipes
+- Recipe.first.course
+- Recipe.first.ingredients (bonus)
+- Ingredients.first.recipe (bonus)
+- Ingredients.first.recipe.course (bonus)
 
 ## Additional Resources
 
