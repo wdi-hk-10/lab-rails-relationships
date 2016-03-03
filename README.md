@@ -18,19 +18,23 @@ For this lab, we are going to build a Cookbook app with several models that inte
 - Create a model `Course` with one attribute: `name` as a string
 - Link `Recipe` and `Course` so that a course has many recipes and a recipe belongs to a course
 - Test if associations works in the Rails console (`rails c`)
-- then set up the appropriate views
 
 **Bonus:**
 - Create a model `Ingredient` and a has_many and belongs_to relations between recipes and ingredients (Hints: You need a Join table)
-- Give the option to add ingredients to recipes in the views
+
+**OPTIONAL** for tomorrow
+- Be sure to create the RESTful controller actions and the corresponding routes
+- then set up the appropriate views
 
 #### Deliverable
 
-If you include the bonus, and add a few ingredients and courses, your ```recipes/new``` endpoint should look like this:
+You should be able to go to `rails c` and create new course, recipes (and ingredients for bonus) and be able to call these
 
-<p align="center">
-<img src="http://s10.postimg.org/ifjhdgi6x/Screen_Shot_2015_07_18_at_8_53_11_PM.png">
-</p>
+Course.first.recipes
+Recipe.first.course
+Recipe.first.ingredients (bonus)
+Ingredients.first.recipe (bonus)
+Ingredients.first.recipe.course (bonus)
 
 ## Additional Resources
 
